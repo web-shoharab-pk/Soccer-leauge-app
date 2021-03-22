@@ -1,0 +1,42 @@
+.banner-div{
+    background-image: url('../../Photo/stedium.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-div h1{
+    color: white;
+}
+.leagues-div{
+    background-color: #01015adc;
+ 
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        padding: 20px;
+        text-align: center;
+    }
+  }

@@ -1,0 +1,65 @@
+
+.league-details{
+    background-color: #01015adc;
+    margin: 0;
+    padding: 20px 100px;
+}
+.bannerDiv{
+ 
+   background-size: 100%;
+    background-position: center;
+}
+.leaugeLogoName h1{
+ 
+    padding: 10px;
+    background-color: #ff000081;
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+}
+.bannerDiv img{
+    width: 150px;
+}
+.info-div{
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    background-color: #3A42FF;
+    color: white;
+}
+.descriptionDiv{
+    color: white;
+}
+.playerImg img{
+    width: 500px;
+}
+.logo img{
+    width: 40px;
+}
+.social-media-link img{
+    width: 80px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .playerImg img{
+        width: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .playerImg img{
+        width: 300px;
+    }
+  }
+  @media only screen and (max-width: 810px) {
+    .playerImg img{
+        width: 250px;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .playerImg img{
+        width: 250px;
+    }
+  }
